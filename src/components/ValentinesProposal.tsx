@@ -170,16 +170,15 @@ export default function ValentinesProposal() {
               height={200}
               unoptimized
             />
+            <Link
+              href="/celebration"
+              className="mt-4 cursor-pointer relative z-[9999] px-6 py-2 text-lg font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300 shadow-md"
+            >
+              🎁 Check My Give 🎁
+            </Link>
           </motion.div>
         )}
       </AnimatePresence>
-
-      <Link
-        href="/celebration"
-        className="mt-4 cursor-pointer relative z-[9999] px-6 py-3 text-lg font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300 shadow-md"
-      >
-        🎁 Check My Give 🎁
-      </Link>
 
       {showFireworks && (
         <div className="absolute w-full h-full">
