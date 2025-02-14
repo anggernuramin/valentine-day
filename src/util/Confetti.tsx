@@ -13,7 +13,7 @@ const Surprise = () => {
   }, []);
   return (
     <Confetti
-      width={window.innerWidth}
+      width={window?.innerWidth}
       ref={confettiRef}
       numberOfPieces={150}
     />
